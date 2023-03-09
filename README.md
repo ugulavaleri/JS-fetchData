@@ -1,1 +1,1 @@
-# JavaScript-18
+get data. info with simple visuals.
