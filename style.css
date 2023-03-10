@@ -45,3 +45,9 @@
     font-size: 30px;
     color: red;
 }
+.displayNone {
+    display: none;
+}
+.displayBlock {
+    display: block;
+}
