@@ -37,10 +37,13 @@ const createContent = (user) => {
         idDiv.appendChild(box2);
 
         // event
+        const textDiv = document.createElement("div");
+        item.appendChild(textDiv);
+        textDiv.appendChild(text);
+        textDiv.classList.add("displayNone");
+
         button.addEventListener("click", () => {
-            const textDiv = document.createElement("div");
-            item.appendChild(textDiv);
-            textDiv.appendChild(text);
+            textDiv.classList.toggle("displayBlock");
         });
     }
 };
